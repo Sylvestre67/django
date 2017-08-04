@@ -46,6 +46,9 @@ if lib_path is None:
     )
 
 # This loads the GDAL/OGR C library
+print('###############################################')
+print(lib_path)
+print('###############################################')
 lgdal = CDLL(lib_path)
 
 # On Windows, the GDAL binaries have some OSR routines exported with
