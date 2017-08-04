@@ -10,7 +10,6 @@ from django.contrib.gis.gdal.error import GDALException
 from django.core.exceptions import ImproperlyConfigured
 
 logger = logging.getLogger('django.contrib.gis')
-import pdb;pdb.set_trace()
 # Custom library path set?
 try:
     from django.conf import settings
